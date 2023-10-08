@@ -25,6 +25,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <meta
+      name="description"
+      content="If you still have any questions you can contact me on this page."
+    />
     <title>Contact page</title>
   </head>
   <body>
@@ -43,10 +47,14 @@
           />
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li class="active"><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Home page">Home</a></li>
+          <li><a href="/about.html" title="About page">About</a></li>
+          <li>
+            <a href="/work.html" title="Work page">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact page">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -55,19 +63,73 @@
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:patricia@gmail.com">patricia@gmail.com</a>
+          <a href="mailto:patricia@gmail.com" title="Email"
+            >patricia@gmail.com</a
+          >
         </p>
         <h3>Twitter</h3>
         <p>
-          <a href="https://twitter.com/patricia" target="_blank"> @patricia</a>
+          <a
+            href="https://twitter.com/patricia"
+            title="Twitter"
+            target="_blank"
+          >
+            @patricia</a
+          >
         </p>
         <h3>Instagram</h3>
         <p>
-          <a href="https://www.instagram.com/@patricia.codes"
+          <a href="https://www.instagram.com/@patricia.codes" title="Instagram"
             >@patricia.codes</a
           >
         </p>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">
+              Let’s work together and i’ll help you by all my best
+            </p>
+          </div>
+          <div>
+            <a href="contact.html" class="btn btn-branding mt-3" title="Contact"
+              >Let’s talk here</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:patricia@gmail.com" class="email-link" title="Email"
+            >patricia@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.instagram.com/@patricia.codes"
+            target="_blank"
+            title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/patricia" target="_blank" title="Github"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/patricia"
+            target="_blank"
+            title="Facebook"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center">
+          This project was coded Olha Babik and it is
+          <a
+            href="https://github.com/olha-babik/weather-app"
+            target="_blank"
+            title="open-source link"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
